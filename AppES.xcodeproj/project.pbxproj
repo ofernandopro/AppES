@@ -27,6 +27,7 @@
 		C49240912AF58AC0000FD6E1 /* ParabensVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49240902AF58AC0000FD6E1 /* ParabensVCTests.swift */; };
 		C49240932AF595F4000FD6E1 /* HomeVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49240922AF595F4000FD6E1 /* HomeVCTests.swift */; };
 		C49240952AF599CA000FD6E1 /* UniversitariosVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49240942AF599CA000FD6E1 /* UniversitariosVCTests.swift */; };
+		C49240972AF5DFF7000FD6E1 /* README.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C49240962AF5DFF7000FD6E1 /* README.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		C49240902AF58AC0000FD6E1 /* ParabensVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParabensVCTests.swift; sourceTree = "<group>"; };
 		C49240922AF595F4000FD6E1 /* HomeVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTests.swift; sourceTree = "<group>"; };
 		C49240942AF599CA000FD6E1 /* UniversitariosVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitariosVCTests.swift; sourceTree = "<group>"; };
+		C49240962AF5DFF7000FD6E1 /* README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = README.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		C492403D2AF580C2000FD6E1 = {
 			isa = PBXGroup;
 			children = (
+				C49240962AF5DFF7000FD6E1 /* README.pdf */,
 				C49240482AF580C2000FD6E1 /* AppES */,
 				C492405F2AF580C4000FD6E1 /* AppESTests */,
 				C49240692AF580C4000FD6E1 /* AppESUITests */,
@@ -304,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49240972AF5DFF7000FD6E1 /* README.pdf in Resources */,
 				C49240562AF580C4000FD6E1 /* LaunchScreen.storyboard in Resources */,
 				C49240532AF580C4000FD6E1 /* Assets.xcassets in Resources */,
 				C49240512AF580C2000FD6E1 /* Main.storyboard in Resources */,
