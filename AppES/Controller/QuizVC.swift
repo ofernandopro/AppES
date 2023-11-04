@@ -246,20 +246,16 @@ class QuizVC: UIViewController {
         let storyBoard = UIStoryboard(name: "Main", bundle: .main)
         let vc = storyBoard.instantiateViewController(withIdentifier: "ParabensVC") as! ParabensVC
         vc.modalPresentationStyle = .fullScreen
-        if respostaErrada {
-            if numPergunta > 0 {
-                vc.valorGanho = valoresPerguntas[numPergunta-1]
-            } else {
-                vc.valorGanho = 0
-            }
-        } else {
-            if numPergunta > 0 {
-                vc.valorGanho = valoresPerguntas[numPergunta-1]
-            } else {
-                vc.valorGanho = 0
-            }
-        }
+        vc.valorGanho = setValorGanho(numPergunta: numPergunta)
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func setValorGanho(numPergunta: Int) -> Int {
+        if numPergunta > 0 {
+            return valoresPerguntas[numPergunta-1]
+        } else {
+            return 0
+        }
     }
     
     // MARK: - Objc Methods

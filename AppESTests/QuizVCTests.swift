@@ -153,4 +153,26 @@ class QuizVCTests: XCTestCase {
         XCTAssertEqual(alts, expectedAlts)
     }
     
+    func testSetValorGanho_NumPerguntaMaiorQueZero() {
+        // Given
+        let result = 2000
+        
+        // When
+        let valor = quizVC.setValorGanho(numPergunta: 3)
+        
+        // Then
+        XCTAssertEqual(valor, result)
+    }
+    
+    func testSetValorGanho_NumPerguntaZero() {
+        // Given
+        let result = 0
+        
+        // When
+        let valor = quizVC.setValorGanho(numPergunta: 0)
+        
+        // Then
+        XCTAssertEqual(valor, result)
+    }
+    
 }
