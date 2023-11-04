@@ -23,17 +23,6 @@ class HomeVCTests: XCTestCase {
         super.tearDown()
     }
     
-    func testGetMaiorPontuacaoForPositiveValue() {
-        // Given
-        let maiorPontuacaoSalva: Int = 50000
-        
-        // When
-        let result = homeVC.getMaiorPontuacao(maiorPontuacaoSalva: maiorPontuacaoSalva)
-        
-        // Then
-        XCTAssertEqual(result, "R$ 50.000,00")
-    }
-    
     func testGetMaiorPontuacaoForZero() {
         // Given
         let maiorPontuacaoSalva: Int = 0

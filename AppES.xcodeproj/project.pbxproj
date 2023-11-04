@@ -13,7 +13,6 @@
 		C49240512AF580C2000FD6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C492404F2AF580C2000FD6E1 /* Main.storyboard */; };
 		C49240532AF580C4000FD6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49240522AF580C4000FD6E1 /* Assets.xcassets */; };
 		C49240562AF580C4000FD6E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49240542AF580C4000FD6E1 /* LaunchScreen.storyboard */; };
-		C49240612AF580C4000FD6E1 /* AppESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49240602AF580C4000FD6E1 /* AppESTests.swift */; };
 		C492406B2AF580C4000FD6E1 /* AppESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492406A2AF580C4000FD6E1 /* AppESUITests.swift */; };
 		C492406D2AF580C4000FD6E1 /* AppESUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492406C2AF580C4000FD6E1 /* AppESUITestsLaunchTests.swift */; };
 		C492407F2AF580FF000FD6E1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492407E2AF580FF000FD6E1 /* Utils.swift */; };
@@ -57,7 +56,6 @@
 		C49240552AF580C4000FD6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49240572AF580C4000FD6E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C492405C2AF580C4000FD6E1 /* AppESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49240602AF580C4000FD6E1 /* AppESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppESTests.swift; sourceTree = "<group>"; };
 		C49240662AF580C4000FD6E1 /* AppESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppESUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C492406A2AF580C4000FD6E1 /* AppESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppESUITests.swift; sourceTree = "<group>"; };
 		C492406C2AF580C4000FD6E1 /* AppESUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppESUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		C492405F2AF580C4000FD6E1 /* AppESTests */ = {
 			isa = PBXGroup;
 			children = (
-				C49240602AF580C4000FD6E1 /* AppESTests.swift */,
 				C492408E2AF58482000FD6E1 /* QuizVCTests.swift */,
 				C49240902AF58AC0000FD6E1 /* ParabensVCTests.swift */,
 				C49240922AF595F4000FD6E1 /* HomeVCTests.swift */,
@@ -355,7 +352,6 @@
 				C49240912AF58AC0000FD6E1 /* ParabensVCTests.swift in Sources */,
 				C49240952AF599CA000FD6E1 /* UniversitariosVCTests.swift in Sources */,
 				C49240932AF595F4000FD6E1 /* HomeVCTests.swift in Sources */,
-				C49240612AF580C4000FD6E1 /* AppESTests.swift in Sources */,
 				C492408F2AF58482000FD6E1 /* QuizVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
