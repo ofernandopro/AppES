@@ -1,0 +1,17 @@
+name: iOS CICD
+on:
+ push:
+  branches:
+   - [main]
+ pull_request:
+  branches:
+   - [main]
+jobs:
+ build-and-test:
+  runs-on: macos-latest
+ steps:
+  - uses: actions/checkout@v2
+  - name: Select Xcode
+    run: sudo Xcode-select -switch /Applications/Xcode_13.2.1.app
+  - name: Build & Test
+    run: xcodebuild clean build test -workspace AppES.xcworkspace -scheme AppES -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2'
