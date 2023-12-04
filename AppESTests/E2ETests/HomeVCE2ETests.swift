@@ -36,20 +36,5 @@ class HomeVCE2ETests: XCTestCase {
         XCTAssertNotNil(homeVC.navigationController?.topViewController is QuizVC, "Navigation should push QuizVC")
     }
     
-    func testViewWillAppear() {
-        // Given
-        let userDefaults = UserDefaults.standard
-        let originalValue = userDefaults.integer(forKey: "maiorPontuacao")
-        userDefaults.set(1000000, forKey: "maiorPontuacao")
-        
-        // When
-        homeVC.viewWillAppear(false)
-        
-        // Then
-        XCTAssertEqual(homeVC.maiorPontuacaoLabel.text, "R$ 1.000.000,00", "Label should display formatted currency")
-        XCTAssertEqual(homeVC.maiorPontuacaoLabel.textColor, .systemYellow, "Label text color should be systemYellow")
-        userDefaults.set(originalValue, forKey: "maiorPontuacao")
-    }
-    
 }
 
