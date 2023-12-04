@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C428AC5B2B1D4C5100BB22DF /* QuizVCE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428AC5A2B1D4C5100BB22DF /* QuizVCE2ETests.swift */; };
+		C428AC5D2B1E8E8D00BB22DF /* HomeVCE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428AC5C2B1E8E8D00BB22DF /* HomeVCE2ETests.swift */; };
+		C428AC5F2B1E916500BB22DF /* EliminarAltsVCE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428AC5E2B1E916500BB22DF /* EliminarAltsVCE2ETests.swift */; };
 		C492404A2AF580C2000FD6E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49240492AF580C2000FD6E1 /* AppDelegate.swift */; };
 		C492404C2AF580C2000FD6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492404B2AF580C2000FD6E1 /* SceneDelegate.swift */; };
 		C492404E2AF580C2000FD6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492404D2AF580C2000FD6E1 /* ViewController.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C428AC5A2B1D4C5100BB22DF /* QuizVCE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVCE2ETests.swift; sourceTree = "<group>"; };
+		C428AC5C2B1E8E8D00BB22DF /* HomeVCE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCE2ETests.swift; sourceTree = "<group>"; };
+		C428AC5E2B1E916500BB22DF /* EliminarAltsVCE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminarAltsVCE2ETests.swift; sourceTree = "<group>"; };
 		C49240462AF580C2000FD6E1 /* AppES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49240492AF580C2000FD6E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C492404B2AF580C2000FD6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C428AC592B1D4C2400BB22DF /* E2ETests */ = {
+			isa = PBXGroup;
+			children = (
+				C428AC5C2B1E8E8D00BB22DF /* HomeVCE2ETests.swift */,
+				C428AC5E2B1E916500BB22DF /* EliminarAltsVCE2ETests.swift */,
+				C428AC5A2B1D4C5100BB22DF /* QuizVCE2ETests.swift */,
+			);
+			path = E2ETests;
+			sourceTree = "<group>";
+		};
 		C492403D2AF580C2000FD6E1 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +157,7 @@
 		C492405F2AF580C4000FD6E1 /* AppESTests */ = {
 			isa = PBXGroup;
 			children = (
+				C428AC592B1D4C2400BB22DF /* E2ETests */,
 				C492408E2AF58482000FD6E1 /* QuizVCTests.swift */,
 				C49240902AF58AC0000FD6E1 /* ParabensVCTests.swift */,
 				C49240922AF595F4000FD6E1 /* HomeVCTests.swift */,
@@ -356,7 +373,10 @@
 				C49240912AF58AC0000FD6E1 /* ParabensVCTests.swift in Sources */,
 				C49240952AF599CA000FD6E1 /* UniversitariosVCTests.swift in Sources */,
 				C49240932AF595F4000FD6E1 /* HomeVCTests.swift in Sources */,
+				C428AC5D2B1E8E8D00BB22DF /* HomeVCE2ETests.swift in Sources */,
+				C428AC5B2B1D4C5100BB22DF /* QuizVCE2ETests.swift in Sources */,
 				C492408F2AF58482000FD6E1 /* QuizVCTests.swift in Sources */,
+				C428AC5F2B1E916500BB22DF /* EliminarAltsVCE2ETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
